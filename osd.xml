@@ -29,11 +29,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
@@ -189,11 +189,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
@@ -220,11 +220,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
@@ -253,11 +253,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
@@ -321,11 +321,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
@@ -758,11 +758,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
@@ -890,11 +890,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
@@ -1081,11 +1081,11 @@
         <!-- The information and the clock that is 
              shown at the top left of each screen -->       
         <imagetype name="header_background">
-            <area>-1,-1,560,50</area>
+            <area>-1,-1,310,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,230,30</area>
+            <area>10,0,240,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
