@@ -867,7 +867,7 @@
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,240,30</area>
+            <area>10,0,250,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
