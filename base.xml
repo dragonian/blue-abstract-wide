@@ -220,7 +220,7 @@
                 
                 <!-- the button's text -->
                 <textarea name="buttontext" from="base_textarea">
-                    <area>8,0,100%-20,36</area>
+                    <area>8,0,100%-50,36</area>
                     <scroll direction="horizontal" rate="35"/>
                 </textarea>
                 
