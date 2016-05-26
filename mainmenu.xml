@@ -2,79 +2,53 @@
 <mythmenu name="MAIN">
 
     <button>
-        <type>MENU_TV</type>
-        <text>Watch TV</text>
-        <text lang="DE">Fernsehen</text>
-        <description>Watch live TV or schedule recordings</description>
-        <description lang="DE">TV und Aufnahmen anschauen oder planen</description>
-        <action>MENU menu/tv_menu.xml</action>
+        <type>TV_WATCH_RECORDINGS</type>
+        <text>Watch Recordings</text>
+        <text lang="DE">TV-Aufnahmen ansehen</text>
+        <description>Play recordings</description>
+        <description lang="DE">Aufgenommene TV-Sendunden ansehen</description>
+        <action>TV_WATCH_RECORDING</action>
     </button>
 
     <button>
-        <type>MENU_VIDEOS</type>
-        <text>Videos</text>
-        <text lang="DE">Videos</text>
-        <description>Browse the internet or your video library</description>
-        <description lang="DE">Filme, Serien und Internetvideos anschauen</description>
-        <action>MENU menu/videos_menu.xml</action>
+        <type>VIDEO_BROWSER</type>
+        <text>Watch Videos</text>
+        <text lang="DE">Filme und Serien</text>
+        <description>Browse your video library</description>
+        <description lang="DE">Videos aus deiner Sammlung anschauen</description>
+        <action>JUMP Video Default</action>
     </button>
 
     <button>
-        <type>MENU_MUSIC</type>
-        <text>Music</text>
-        <text lang="DE">Musik</text>
-        <description>Listen to your music or from the internet</description>
-        <description lang="DE">Höre Deine Musik oder aus dem Internet</description>
-        <action>MENU menu/music_menu.xml</action>
-        <depends>mythmusic</depends>
-    </button>
-<!--
-    <button>
-        <type>MENU_PICTURES</type>
-        <text>Pictures</text>
-        <text lang="DE">Bilder</text>
-        <description>Look at Pictures</description>
-        <description lang="DE">Bilder aus deiner Sammlung anschauen</description>
-        <action>PLUGIN mythgallery</action>
-        <depends>mythgallery</depends>
-    </button>
--->
-<!-- This is the new gallery plugin which is integrated into the forntend. Until 
-     its added to MythTV the menu entry must be uncommented manually. -->
-
-    <button>
-        <type>MENU_IMAGES</type>
-        <text>Pictures</text>
-        <text lang="DE">Bilder</text>
-        <description>Look at Pictures</description>
-        <description lang="DE">Bilder aus deiner Sammlung anschauen</description>
-        <action>JUMP Gallery Default</action>
+        <type>TV_MENU_ORGANIZE</type>
+        <text>Manage Recordings</text>
+        <text lang="DE">TV-Aufnahmen organisieren</text>
+        <description>Find shows or pick shows to record or delete</description>
+        <description lang="DE">Sendungen suchen, aufnehmen oder löschen</description>
+        <action>MENU menu/tv_menu_organize.xml</action>
     </button>
 
     <button>
-        <type>MENU_GAMES</type>
-        <text>Games</text>
-        <text lang="DE">Spiele</text>
-        <description>Play video games</description>
-        <description lang="DE">Konsolen- und andere Spieleklassiker</description>
-        <action>PLUGIN mythgame</action>
-        <depends>mythgame</depends>
+        <type>TV_STATUS</type>
+        <text>System Status</text>
+        <text lang="DE">Systemstatus</text>
+        <description>What your system is doing right now</description>
+        <description lang="DE">Informationen rund um MythTV</description>
+        <action>TV_STATUS</action>
     </button>
 
     <button>
-        <type>MENU_INFO_CENTER</type>
-        <text>Internet and Information</text>
-        <text lang="DE">Internet und Infos</text>
-        <description>Surf the net, read news and more</description>
-        <description lang="DE">Surfen, Nachrichten lesen und Weiteres</description>
-        <action>MENU menu/info_menu.xml</action>
+       <type>MENU_UTILITIES_SETUP</type>
+        <text>Setup</text>
+        <description>Configure MythTV and plugins</description>
+        <action>MENU main_settings.xml</action>
     </button>
 
     <button>
         <type>MENU_EXTRAS</type>
         <text>Extras</text>
         <text lang="DE">Extras</text>
-        <description>Setup, status information and import</description>
+        <description>Additional functionality</description>
         <description lang="DE">Konfiguration, Status-Infos und Import</description>
         <action>MENU menu/extras_menu.xml</action>
     </button>

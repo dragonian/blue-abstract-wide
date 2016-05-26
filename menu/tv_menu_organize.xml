@@ -12,7 +12,7 @@
 
     <button>
         <type>TV_PLANNING_MENU</type>
-        <text>Advanced planning</text>
+        <text>Schedule Recordings</text>
         <text lang="DE">Erweiterte Planung</text>
         <description>Search for shows and more options</description>
         <description lang="DE">Sendungen suchen und weitere Optionen</description>
