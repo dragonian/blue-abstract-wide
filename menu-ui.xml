@@ -4,11 +4,11 @@
     <window name="mainmenu">  
 
         <imagetype name="header_background">
-            <area>-290,-1,560,50</area>
+            <area>-1,-1,320,50</area>
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,250,30</area>
+            <area>10,0,300,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>

@@ -867,13 +867,13 @@
             <filename>images/media/header_left.png</filename>
         </imagetype>
         <clock name="clock">
-            <area>10,0,250,30</area>
+            <area>10,0,300,30</area>
             <font>text</font>
             <template>%DATE%, %TIME%</template>
             <align>left,vcenter</align>
         </clock>
         <textarea name="text" from="base_textarea">
-            <area>245,0,270,30</area>
+            <area>245,0,300,30</area>
             <align>allcenter</align>
             <scroll direction="horizontal" rate="35"/>
         </textarea>
