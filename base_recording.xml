@@ -55,7 +55,7 @@
             <area>420,75,225,30</area>
         </textarea>
         <textarea name="timedate" from="base_textarea">
-            <area>660,75,310,30</area>
+            <area>580,75,395,30</area>
             <align>right,vcenter</align>
         </textarea>
 
