@@ -63,15 +63,15 @@
                         <scroll direction="horizontal" />
                     </textarea>
                     <textarea name="00x00" from="base_textarea">
-                        <area>530,5,60,30</area>
+                        <area>540,5,65,30</area>
                         <align>right,vcenter</align>
                     </textarea>
                     <textarea name="shortstartdate" from="base_textarea">
-                        <area>600,0,80,36</area>
+                        <area>600,0,70,36</area>
                         <align>right,vcenter</align>
                     </textarea>
                     <textarea name="starttime" from="base_textarea">
-                        <area>690,0,80,36</area>
+                        <area>680,0,95,36</area>
                         <align>allcenter</align>
                     </textarea>                    
                     <imagetype name="no_jobstate" from="base_icon_inactive">
